@@ -7,7 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BC2312AC1C3FB2C50090FE55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2312AB1C3FB2C50090FE55 /* main.m */; };
+		BC2312C71C3FB33C0090FE55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2312B21C3FB33C0090FE55 /* main.m */; };
+		BC2312C81C3FB33C0090FE55 /* QFBussiness.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2312B41C3FB33C0090FE55 /* QFBussiness.m */; };
+		BC2312C91C3FB33C0090FE55 /* QFClass.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2312B61C3FB33C0090FE55 /* QFClass.m */; };
+		BC2312CA1C3FB33C0090FE55 /* QFController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2312B81C3FB33C0090FE55 /* QFController.m */; };
+		BC2312CB1C3FB33C0090FE55 /* QFMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2312BA1C3FB33C0090FE55 /* QFMenuItem.m */; };
+		BC2312CC1C3FB33C0090FE55 /* QFMenuManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2312BC1C3FB33C0090FE55 /* QFMenuManager.m */; };
+		BC2312CD1C3FB33C0090FE55 /* QFRecordPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2312BE1C3FB33C0090FE55 /* QFRecordPhoto.m */; };
+		BC2312CE1C3FB33C0090FE55 /* QFRecords.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2312C01C3FB33C0090FE55 /* QFRecords.m */; };
+		BC2312CF1C3FB33C0090FE55 /* QFStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2312C21C3FB33C0090FE55 /* QFStudent.m */; };
+		BC2312D01C3FB33C0090FE55 /* QFTeacher.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2312C41C3FB33C0090FE55 /* QFTeacher.m */; };
+		BC2312D11C3FB33C0090FE55 /* QFUI.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2312C61C3FB33C0090FE55 /* QFUI.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +34,27 @@
 
 /* Begin PBXFileReference section */
 		BC2312A81C3FB2C50090FE55 /* 教务补充系统160108 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "教务补充系统160108"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC2312AB1C3FB2C50090FE55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC2312B21C3FB33C0090FE55 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC2312B31C3FB33C0090FE55 /* QFBussiness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFBussiness.h; sourceTree = "<group>"; };
+		BC2312B41C3FB33C0090FE55 /* QFBussiness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFBussiness.m; sourceTree = "<group>"; };
+		BC2312B51C3FB33C0090FE55 /* QFClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFClass.h; sourceTree = "<group>"; };
+		BC2312B61C3FB33C0090FE55 /* QFClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFClass.m; sourceTree = "<group>"; };
+		BC2312B71C3FB33C0090FE55 /* QFController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFController.h; sourceTree = "<group>"; };
+		BC2312B81C3FB33C0090FE55 /* QFController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFController.m; sourceTree = "<group>"; };
+		BC2312B91C3FB33C0090FE55 /* QFMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFMenuItem.h; sourceTree = "<group>"; };
+		BC2312BA1C3FB33C0090FE55 /* QFMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFMenuItem.m; sourceTree = "<group>"; };
+		BC2312BB1C3FB33C0090FE55 /* QFMenuManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFMenuManager.h; sourceTree = "<group>"; };
+		BC2312BC1C3FB33C0090FE55 /* QFMenuManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFMenuManager.m; sourceTree = "<group>"; };
+		BC2312BD1C3FB33C0090FE55 /* QFRecordPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFRecordPhoto.h; sourceTree = "<group>"; };
+		BC2312BE1C3FB33C0090FE55 /* QFRecordPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFRecordPhoto.m; sourceTree = "<group>"; };
+		BC2312BF1C3FB33C0090FE55 /* QFRecords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFRecords.h; sourceTree = "<group>"; };
+		BC2312C01C3FB33C0090FE55 /* QFRecords.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFRecords.m; sourceTree = "<group>"; };
+		BC2312C11C3FB33C0090FE55 /* QFStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFStudent.h; sourceTree = "<group>"; };
+		BC2312C21C3FB33C0090FE55 /* QFStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFStudent.m; sourceTree = "<group>"; };
+		BC2312C31C3FB33C0090FE55 /* QFTeacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFTeacher.h; sourceTree = "<group>"; };
+		BC2312C41C3FB33C0090FE55 /* QFTeacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFTeacher.m; sourceTree = "<group>"; };
+		BC2312C51C3FB33C0090FE55 /* QFUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFUI.h; sourceTree = "<group>"; };
+		BC2312C61C3FB33C0090FE55 /* QFUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFUI.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +87,61 @@
 		BC2312AA1C3FB2C50090FE55 /* 教务补充系统160108 */ = {
 			isa = PBXGroup;
 			children = (
-				BC2312AB1C3FB2C50090FE55 /* main.m */,
+				BC2312D51C3FB3DE0090FE55 /* Controller */,
+				BC2312D41C3FB3D10090FE55 /* BussinessModal */,
+				BC2312D31C3FB3670090FE55 /* DataModal */,
+				BC2312D21C3FB34D0090FE55 /* View */,
+				BC2312B21C3FB33C0090FE55 /* main.m */,
 			);
 			path = "教务补充系统160108";
+			sourceTree = "<group>";
+		};
+		BC2312D21C3FB34D0090FE55 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BC2312B91C3FB33C0090FE55 /* QFMenuItem.h */,
+				BC2312BA1C3FB33C0090FE55 /* QFMenuItem.m */,
+				BC2312BB1C3FB33C0090FE55 /* QFMenuManager.h */,
+				BC2312BC1C3FB33C0090FE55 /* QFMenuManager.m */,
+				BC2312C51C3FB33C0090FE55 /* QFUI.h */,
+				BC2312C61C3FB33C0090FE55 /* QFUI.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		BC2312D31C3FB3670090FE55 /* DataModal */ = {
+			isa = PBXGroup;
+			children = (
+				BC2312BD1C3FB33C0090FE55 /* QFRecordPhoto.h */,
+				BC2312BE1C3FB33C0090FE55 /* QFRecordPhoto.m */,
+				BC2312BF1C3FB33C0090FE55 /* QFRecords.h */,
+				BC2312C01C3FB33C0090FE55 /* QFRecords.m */,
+				BC2312C11C3FB33C0090FE55 /* QFStudent.h */,
+				BC2312C21C3FB33C0090FE55 /* QFStudent.m */,
+				BC2312C31C3FB33C0090FE55 /* QFTeacher.h */,
+				BC2312C41C3FB33C0090FE55 /* QFTeacher.m */,
+				BC2312B51C3FB33C0090FE55 /* QFClass.h */,
+				BC2312B61C3FB33C0090FE55 /* QFClass.m */,
+			);
+			name = DataModal;
+			sourceTree = "<group>";
+		};
+		BC2312D41C3FB3D10090FE55 /* BussinessModal */ = {
+			isa = PBXGroup;
+			children = (
+				BC2312B31C3FB33C0090FE55 /* QFBussiness.h */,
+				BC2312B41C3FB33C0090FE55 /* QFBussiness.m */,
+			);
+			name = BussinessModal;
+			sourceTree = "<group>";
+		};
+		BC2312D51C3FB3DE0090FE55 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BC2312B71C3FB33C0090FE55 /* QFController.h */,
+				BC2312B81C3FB33C0090FE55 /* QFController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +200,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC2312AC1C3FB2C50090FE55 /* main.m in Sources */,
+				BC2312CB1C3FB33C0090FE55 /* QFMenuItem.m in Sources */,
+				BC2312CA1C3FB33C0090FE55 /* QFController.m in Sources */,
+				BC2312C81C3FB33C0090FE55 /* QFBussiness.m in Sources */,
+				BC2312C71C3FB33C0090FE55 /* main.m in Sources */,
+				BC2312C91C3FB33C0090FE55 /* QFClass.m in Sources */,
+				BC2312CD1C3FB33C0090FE55 /* QFRecordPhoto.m in Sources */,
+				BC2312CC1C3FB33C0090FE55 /* QFMenuManager.m in Sources */,
+				BC2312CF1C3FB33C0090FE55 /* QFStudent.m in Sources */,
+				BC2312CE1C3FB33C0090FE55 /* QFRecords.m in Sources */,
+				BC2312D01C3FB33C0090FE55 /* QFTeacher.m in Sources */,
+				BC2312D11C3FB33C0090FE55 /* QFUI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
